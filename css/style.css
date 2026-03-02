@@ -1,0 +1,31 @@
+
+
+    body {
+      background: #0B1622;
+      color: #E8F0F2;
+      font-family: sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background: #132030;
+      border-bottom: 1px solid #1E3044;
+      padding: 20px 32px;
+    }
+
+    #header_name{
+        
+    }
+
+    main {
+      flex: 1;
+      padding: 32px;
+    }
+
+    footer {
+      background: #132030;
+      border-top: 1px solid #1E3044;
+      padding: 20px 32px;
+    }
