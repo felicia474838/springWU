@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generator - PlaylistGen</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="burgerContainer" id="burgerBtn">
+      <div class="burger">
+        <div></div>
+        <div></div>
+        <div></div> 
+      </div>
+    </div>
+    <div class="logo"><a href="index.html"><img class="logo-img" src="img/logo.png" alt="logo"> <span class="logo-text">PlayGen</span></a></div>
+    <button id="themeToggle" class="theme-button">Light</button>
+    <nav class="mainNav" id="mainNav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="generator.html">Generator</a></li>
+        <li><a href="my_playlist.html">My Playlists</a></li>
+        <li><a href="discover.html">Discover</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <nav class="desktop">
+    <div class="logo"><a href="index.html"><img class="logo-img" src="img/logo.png" alt="logo"> <span class="logo-text">PlayGen</span></a></div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="generator.html">Generator</a></li>
+      <li><a href="my_playlist.html">My Playlists</a></li>
+      <li><a href="discover.html">Discover</a></li>
+    </ul>
+    <button class="theme-button desktop-theme" id="themeToggleDesktop">Light</button>
+  </nav>
+
+  <main>
+    <h1>Generate a Playlist</h1>
+    <div class="genre-section">
+      <p>Pick genre(s):</p>
+      <div class="genre-buttons" id="genres">
+        <a href="#" class="genre-btn">Pop</a>
+        <a href="#" class="genre-btn">Rock</a>
+        <a href="#" class="genre-btn">Hip-Hop</a>
+        <a href="#" class="genre-btn">Electronic</a>
+        <a href="#" class="genre-btn">R&B</a>
+        <a href="#" class="genre-btn">Jazz</a>
+        <a href="#" class="genre-btn">Classical</a>
+        <a href="#" class="genre-btn">Country</a>
+        <a href="#" class="genre-btn">Metal</a>
+        <a href="#" class="genre-btn">Indie</a>
+        <a href="#" class="genre-btn">Latin</a>
+        <a href="#" class="genre-btn">K-pop</a>
+      </div>
+    </div>
+    <a href="#" class="generate-btn" id="generateBtn">Generate Playlist</a>
+    <div id="results" class="song-list">
+      <div class="song">
+        <img src="img/album_cover_pop.jpeg" alt="Album cover">
+        <div class="song-info">
+          <div class="song-title">APT.</div>
+          <div class="song-artist">Rosé, Bruno Mars</div>
+          <div class="song-genre">Pop</div>
+        </div>
+      </div>
+      <div class="song">
+        <img src="img/album_cover_rock.jpg" alt="Album cover">
+        <div class="song-info">
+          <div class="song-title">The End</div>
+          <div class="song-artist">Mammoth WVH</div>
+          <div class="song-genre">Rock</div>
+        </div>
+      </div>
+      <div class="song">
+        <img src="img/album_cover_hip-hop.jpg" alt="Album cover">
+        <div class="song-info">
+          <div class="song-title">Luther</div>
+          <div class="song-artist">Kendrick Lamar, SZA</div>
+          <div class="song-genre">Hip-Hop</div>
+        </div>
+      </div>
+      <div class="song">
+        <img src="img/album_cover_electronic.png" alt="Album cover">
+        <div class="song-info">
+          <div class="song-title">360</div>
+          <div class="song-artist">Charli XCX</div>
+          <div class="song-genre">Electronic</div>
+        </div>
+      </div>
+      <div class="song">
+        <img src="img/album_cover_rnb.png" alt="Album cover">
+        <div class="song-info">
+          <div class="song-title">Timeless</div>
+          <div class="song-artist">The Weeknd, Playboi Carti</div>
+          <div class="song-genre">R&B</div>
+        </div>
+      </div>
+      <div class="song">
+        <img src="img/album_cover_latin.jpg" alt="Album cover">
+        <div class="song-info">
+          <div class="song-title">DtMF</div>
+          <div class="song-artist">Bad Bunny</div>
+          <div class="song-genre">Latin</div>
+        </div>
+        </div>
+        </div>
+  </main>
+
+  <footer>Built with the iTunes Search API</footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -3,18 +3,67 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PlaylistGen</title>
   <link rel="stylesheet" href="css/style.css">
-  <title>Document</title>
 </head>
 <body>
 
-  <header id="header_name">header</header>
+  <header class="navbar">
+    <div class="burgerContainer" id="burgerBtn">
+      <div class="burger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <div class="logo"><a href="index.html"><img class="logo-img" src="img/logo.png" alt="logo"> <span class="logo-text">PlayGen</span></a></div>
+    <button id="themeToggle" class="theme-button">Light</button>
+    <nav class="mainNav" id="mainNav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="generator.html">Generator</a></li>
+        <li><a href="my_playlist.html">My Playlists</a></li>
+        <li><a href="discover.html">Discover</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <nav class="desktop">
+    <div class="logo"><a href="index.html"><img class="logo-img" src="img/logo.png" alt="logo"> <span class="logo-text">PlayGen</span></a></div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="generator.html">Generator</a></li>
+      <li><a href="my_playlist.html">My Playlists</a></li>
+      <li><a href="discover.html">Discover</a></li>
+    </ul>
+    <button class="theme-button desktop-theme" id="themeToggleDesktop">Light</button>
+  </nav>
 
-  <main>main</main>
+  <main>
+    <div>
+      <h1>Generate playlists by genre</h1>
+      <p>Pick a genre, and we'll create a playlist for you using the iTunes API. Save your favorites and discover new music.</p>
+      <h2>How It Works</h2>
+      <p>1. Head to the Generator and pick a genre.</p>
+      <p>2. We fetch tracks from iTunes that match your taste.</p>
+      <p>3. Save playlists you like to your collection.</p>
+      <a href="generator.html" class="cta-button">Start Generating</a>
+    </div>
 
+    <div class="discover">
+      <h2>Discover Songs</h2>
+      <p>You can also view top songs, and search for songs</p>
+      <a href="discover.html" class="cta-button">Discover and search songs here</a>
+    </div>
 
-  <footer>footer</footer>
-  
+    <div class="playlists">
+      <h2>Save Playlists</h2>
+      <p>When you've created a playlist, you can save it here.</p>
+      <a href="my_playlist.html" class="cta-button">View Playlists</a>
+    </div>
+  </main>
+
+  <footer>Built with the iTunes Search API</footer>
+  <script src="js/main.js"></script>
 </body>
 </html>
